@@ -1,4 +1,4 @@
-# Acamar: A Dynamically Reconfigurable Scientific Comaputing Accelerator (MICRO-2024)
+# Acamar: A Dynamically Reconfigurable Scientific Computing Accelerator (MICRO-2024)
 
 Acamar is a dynamically reconfigurable scientific computing accelerator designed for robust convergence and minimal resource utilization. This repository contains the source code for the simulator used to test Acamar. The simulator is written in C++ and driven using Python 3.
 ## Architecture
