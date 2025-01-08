@@ -2,7 +2,7 @@
 
 Acamar is a dynamically reconfigurable scientific computing accelerator designed for robust convergence and minimal resource utilization. This repository contains the source code for the simulator used to test Acamar. The simulator is written in C++ and driven using Python 3.
 ![Acamar Architecture](architecture.png)    
-*Figure: Architecture of Acamar*
+<figcaption>Figure 1: Acamar Architecture Diagram</figcaption>
 ## Repoistory Structure
 The repository has some scrap verilog and python notebook files used in the testing and dataset exporting process. (`Scrap Verilog` & `Scrap Notebooks`) You may or may not find it useful. 
 The simulator source code is provided in `C_Sim` directory and is most relevant.
