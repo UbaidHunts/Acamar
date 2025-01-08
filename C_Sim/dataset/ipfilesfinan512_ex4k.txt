@@ -1,0 +1,6 @@
+offsetsfinan512_ex4k.txt
+colIdxfinan512_ex4k.txt
+valuesfinan512_ex4k.txt
+vec.txt
+latency.txt
+paramfinan512_ex4k.txt

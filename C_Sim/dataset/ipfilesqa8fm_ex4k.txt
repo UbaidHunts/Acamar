@@ -1,0 +1,6 @@
+offsetsqa8fm_ex4k.txt
+colIdxqa8fm_ex4k.txt
+valuesqa8fm_ex4k.txt
+vec.txt
+latency.txt
+paramqa8fm_ex4k.txt

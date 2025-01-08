@@ -1,0 +1,6 @@
+offsetsASIC_100k_ex4k.txt
+colIdxASIC_100k_ex4k.txt
+valuesASIC_100k_ex4k.txt
+vec.txt
+latency.txt
+paramASIC_100k_ex4k.txt

@@ -1,0 +1,81 @@
+****************************************
+Report : power
+        -analysis_effort low
+Design : MAC
+Version: Q-2019.12-SP4
+Date   : Tue Jun 18 15:08:43 2024
+****************************************
+ 
+ 
+Library(s) Used:
+
+    gscl45nm (File: /afs/glue.umd.edu/home/glue/u/b/ubaidb/home/dc/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+ 
+ 
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+ 
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+ 
+ 
+  Cell Internal Power  = 157.0053 uW   (75%)
+  Net Switching Power  =  53.5285 uW   (25%)
+                         ---------
+Total Dynamic Power    = 210.5338 uW  (100%)
+ 
+Cell Leakage Power     =  68.0138 uW
+ 
+ 
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       9.8603e-02        5.2950e-04        1.5662e+04            0.1148  (  41.21%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  5.8402e-02        5.2999e-02        5.2352e+04            0.1638  (  58.79%)
+--------------------------------------------------------------------------------------------------
+Total              0.1570 mW     5.3528e-02 mW     6.8014e+04 nW         0.2785 mW
+
+***** End Of Report *****
+
+
+****************************************
+Report : area
+Design : MAC
+Version: Q-2019.12-SP4
+Date   : Tue Jun 18 15:08:35 2024
+****************************************
+ 
+Library(s) Used:
+
+    gscl45nm (File: /afs/glue.umd.edu/home/glue/u/b/ubaidb/home/dc/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+ 
+Number of ports:                          870
+Number of nets:                          4572
+Number of cells:                         3265
+Number of combinational cells:           2949
+Number of sequential cells:               160
+Number of macros/black boxes:               0
+Number of buf/inv:                        909
+Number of references:                      26
+ 
+Combinational area:              10921.549675
+Buf/Inv area:                     1630.817457
+Noncombinational area:            1576.848022
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+ 
+Total cell area:                 12498.397697
+Total area:                 undefined
+
+***** End Of Report *****

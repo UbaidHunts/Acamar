@@ -1,0 +1,6 @@
+offsetsTrefethen_20000_ex4k.txt
+colIdxTrefethen_20000_ex4k.txt
+valuesTrefethen_20000_ex4k.txt
+vec.txt
+latency.txt
+paramTrefethen_20000_ex4k.txt

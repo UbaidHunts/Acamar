@@ -1,0 +1,6 @@
+offsetsifiss_mat_ex4k.txt
+colIdxifiss_mat_ex4k.txt
+valuesifiss_mat_ex4k.txt
+vec.txt
+latency.txt
+paramifiss_mat_ex4k.txt

@@ -1,0 +1,6 @@
+offsetsoffshore_ex4k.txt
+colIdxoffshore_ex4k.txt
+valuesoffshore_ex4k.txt
+vec.txt
+latency.txt
+paramoffshore_ex4k.txt

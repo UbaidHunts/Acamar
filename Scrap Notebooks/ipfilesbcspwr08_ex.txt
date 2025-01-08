@@ -1,0 +1,6 @@
+offsetsbcspwr08_ex.txt
+colIdxbcspwr08_ex.txt
+valuesbcspwr08_ex.txt
+vec.txt
+latency.txt
+parambcspwr08_ex.txt

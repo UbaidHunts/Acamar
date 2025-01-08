@@ -1,0 +1,696 @@
+EXECUTING:  main cfg1.txt 2cubes_sphere 51148
+******************* RUNNING 2cubes_sphere *******************
+dataset/colIdx2cubes_sphere_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 33366
+SpMVCSR Avg. Under RU = 40.585938% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *480* itr with error = 8.17458e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 255595680.000000 (2.55596e+008) =0.0851986ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt light_in_tissue 28054
+******************* RUNNING light_in_tissue *******************
+dataset/colIdxlight_in_tissue_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 31848
+SpMVCSR Avg. Under RU = 31.384766% (lower is better)
+
+
+*************** Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+Convergence achieved in 51 itr with error = 0.000000
+
+Converged Achieved in *8052* itr with error = 0
+
+*************** Switching activity of iterative solvers *************** 
+0.JB
+*************** Pre-Scale Performance *************** 
+Latency: 58039105872.000000 (5.80391e+010) =19.3464ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt offshore 56304
+******************* RUNNING offshore *******************
+dataset/colIdxoffshore_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 32670
+SpMVCSR Avg. Under RU = 36.818115% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *1023* itr with error = 8.70538e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 1118401911.000000 (1.1184e+009) =0.372801ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt TEM152078 133192
+******************* RUNNING TEM152078 *******************
+dataset/colIdxTEM152078_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 33018
+SpMVCSR Avg. Under RU = 36.159668% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+CG Diverged in 239th itr with error: 102186
+SWITHCED to BiCG
+BiCG Diverged in 928th itr with error: 432768
+SWITHCED to JB
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt poisson3Db 29896
+******************* RUNNING poisson3Db *******************
+dataset/colIdxpoisson3Db_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 30396
+SpMVCSR Avg. Under RU = 31.372803% (lower is better)
+
+
+*************** Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+Convergence achieved in 39 itr with error = 0.000008
+
+Converged Achieved in *40* itr with error = 8.00746e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.JB
+*************** Pre-Scale Performance *************** 
+Latency: 5625600.000000 (5.6256e+006) =0.0018752ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt windtunnel_evap3d 26144
+******************* RUNNING windtunnel_evap3d *******************
+dataset/colIdxwindtunnel_evap3d_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 25506
+SpMVCSR Avg. Under RU = 8.988770% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+
+Converged Achieved in *178* itr with error = 8.82499e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.BiCG
+*************** Pre-Scale Performance *************** 
+Latency: 66528924.000000 (6.65289e+007) =0.0221763ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt atmosmodm 20042
+******************* RUNNING atmosmodm *******************
+dataset/colIdxatmosmodm_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 24576
+SpMVCSR Avg. Under RU = 0.891113% (lower is better)
+
+
+*************** Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+Convergence achieved in 6 itr with error = 0.000001
+
+Converged Achieved in *7* itr with error = 8.18773e-007
+
+*************** Switching activity of iterative solvers *************** 
+0.JB
+*************** Pre-Scale Performance *************** 
+Latency: 862260.000000 (862260) =0.00028742ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt ifiss_mat 63760
+******************* RUNNING ifiss_mat *******************
+dataset/colIdxifiss_mat_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 31146
+SpMVCSR Avg. Under RU = 28.375244% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+
+Converged Achieved in *2370* itr with error = 7.28316e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.BiCG
+*************** Pre-Scale Performance *************** 
+Latency: 9971609100.000000 (9.97161e+009) =3.32387ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt mono_500Hz 45500
+******************* RUNNING mono_500Hz *******************
+dataset/colIdxmono_500Hz_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 34188
+SpMVCSR Avg. Under RU = 43.442871% (lower is better)
+
+
+*************** Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+Convergence achieved in 15 itr with error = 0.000008
+
+Converged Achieved in *16* itr with error = 8.38966e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.JB
+*************** Pre-Scale Performance *************** 
+Latency: 2432256.000000 (2.43226e+006) =0.000810752ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt finan512 23696
+******************* RUNNING finan512 *******************
+dataset/colIdxfinan512_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 31632
+SpMVCSR Avg. Under RU = 37.247803% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *36* itr with error = 9.85967e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 5385996.000000 (5.386e+006) =0.00179533ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt ASIC_100k 20049
+******************* RUNNING ASIC_100k *******************
+dataset/colIdxASIC_100k_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 30822
+SpMVCSR Avg. Under RU = 40.761963% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+BiCG Diverged in 1301th itr with error: 165353
+SWITHCED to CG
+CG Diverged in 1502th itr with error: 7.77533e+010
+SWITHCED to JB
+JB Diverged in 1607th itr with error: inf
+All the solver have been tested
+
+Solution Diverged in 1607th itr
+Exiting
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt crystm03 89504
+******************* RUNNING crystm03 *******************
+dataset/colIdxcrystm03_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 30282
+SpMVCSR Avg. Under RU = 26.347900% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *70* itr with error = 8.9393e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 10283770.000000 (1.02838e+007) =0.00342792ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt epb3 22038
+******************* RUNNING epb3 *******************
+dataset/colIdxepb3_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 25344
+SpMVCSR Avg. Under RU = 11.621338% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+
+Converged Achieved in *139* itr with error = 7.61131e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.BiCG
+*************** Pre-Scale Performance *************** 
+Latency: 51839772.000000 (5.18398e+007) =0.0172799ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt qa8fm 87332
+******************* RUNNING qa8fm *******************
+dataset/colIdxqa8fm_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 30906
+SpMVCSR Avg. Under RU = 28.555176% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *55* itr with error = 9.58912e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 8148745.000000 (8.14874e+006) =0.00271625ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt scircuit 16033
+******************* RUNNING scircuit *******************
+dataset/colIdxscircuit_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 28938
+SpMVCSR Avg. Under RU = 29.534180% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+CG Diverged in 8991th itr with error: 110339
+SWITHCED to BiCG
+BiCG Diverged in 9588th itr with error: 219148
+SWITHCED to JB
+JB Diverged in 9592th itr with error: inf
+All the solver have been tested
+
+Solution Diverged in 9592th itr
+Exiting
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt thermomech_TC 8176
+******************* RUNNING thermomech_TC *******************
+dataset/colIdxthermomech_TC_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 25344
+SpMVCSR Avg. Under RU = 30.194092% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *50* itr with error = 7.27395e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 6851750.000000 (6.85175e+006) =0.00228392ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt xenon1 92928
+******************* RUNNING xenon1 *******************
+dataset/colIdxxenon1_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 38064
+SpMVCSR Avg. Under RU = 57.480957% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+CG Diverged in 1th itr with error: nan
+SWITHCED to BiCG
+BiCG Diverged in 2th itr with error: nan
+SWITHCED to JB
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt G2_circuit 12222
+******************* RUNNING G2_circuit *******************
+dataset/colIdxG2_circuit_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 24576
+SpMVCSR Avg. Under RU = 0.547852% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *13* itr with error = 7.42959e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 1761487.000000 (1.76149e+006) =0.000587162ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt GaAsH6 104274
+******************* RUNNING GaAsH6 *******************
+dataset/colIdxGaAsH6_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 38016
+SpMVCSR Avg. Under RU = 57.085938% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *74* itr with error = 8.45481e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 12016046.000000 (1.2016e+007) =0.00400535ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt Pres_Poisson 191992
+******************* RUNNING Pres_Poisson *******************
+dataset/colIdxPres_Poisson_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 38526
+SpMVCSR Avg. Under RU = 57.962646% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *560* itr with error = 9.926e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 371539840.000000 (3.7154e+008) =0.123847ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt Si34H36 102788
+******************* RUNNING Si34H36 *******************
+dataset/colIdxSi34H36_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 38226
+SpMVCSR Avg. Under RU = 57.799561% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *59* itr with error = 7.8287e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 9605141.000000 (9.60514e+006) =0.00320171ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt Trefethen_20000 94210
+******************* RUNNING Trefethen_20000 *******************
+dataset/colIdxTrefethen_20000_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 24576
+SpMVCSR Avg. Under RU = 0.310059% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *757* itr with error = 9.42041e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 558620580.000000 (5.58621e+008) =0.186207ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt bcircuit 15894
+******************* RUNNING bcircuit *******************
+dataset/colIdxbcircuit_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 28614
+SpMVCSR Avg. Under RU = 27.360840% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *44449* itr with error = 9.63616e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 1784557076131.000000 (1.78456e+012) =594.852ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt nasasrb 207088
+******************* RUNNING nasasrb *******************
+dataset/colIdxnasasrb_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 27954
+SpMVCSR Avg. Under RU = 14.186279% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+CG Diverged in 201th itr with error: 5.04942e+006
+SWITHCED to BiCG
+BiCG Diverged in 402th itr with error: 807632
+SWITHCED to JB
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt ns3Da 74372
+******************* RUNNING ns3Da *******************
+dataset/colIdxns3Da_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 34536
+SpMVCSR Avg. Under RU = 43.970215% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+
+Converged Achieved in *70* itr with error = 8.46736e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.BiCG
+*************** Pre-Scale Performance *************** 
+Latency: 16740640.000000 (1.67406e+007) =0.00558021ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt torso2 36033
+******************* RUNNING torso2 *******************
+dataset/colIdxtorso2_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 25314
+SpMVCSR Avg. Under RU = 4.291748% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+
+Converged Achieved in *11* itr with error = 7.46131e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.BiCG
+*************** Pre-Scale Performance *************** 
+Latency: 2326346.000000 (2.32635e+006) =0.000775449ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt venkat25 108675
+******************* RUNNING venkat25 *******************
+dataset/colIdxvenkat25_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 36678
+SpMVCSR Avg. Under RU = 51.075684% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Non-symmetric Matrix ***************
+
+BiCG Diverged in 27627th itr with error: 124480
+SWITHCED to CG
+CG Diverged in 28091th itr with error: 100172
+SWITHCED to JB
+
+*****************************
+___________________________________________________________________________________________
+EXECUTING:  main cfg1.txt wang3 26298
+******************* RUNNING wang3 *******************
+dataset/colIdxwang3_ex4k.txt
+
+SpMVCSR PERFORMANCE FOR SAMPLING RATE 32
+SpMVCSR latency = 24576
+SpMVCSR Avg. Under RU = 2.257568% (lower is better)
+
+*************** Not Strictly Diagonally Dominant Matrix ***************
+*************** Symmetric Matrix ***************
+
+
+Converged Achieved in *53* itr with error = 7.75889e-006
+
+*************** Switching activity of iterative solvers *************** 
+0.CG
+*************** Pre-Scale Performance *************** 
+Latency: 7181447.000000 (7.18145e+006) =0.00239382ns
+BRAM: 0
+DSP: 0
+FF: 0
+LUT: 0
+URAM: 0
+
+*****************************
+___________________________________________________________________________________________

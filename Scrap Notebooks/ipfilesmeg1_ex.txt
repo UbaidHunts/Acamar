@@ -1,0 +1,6 @@
+offsetsmeg1_ex.txt
+colIdxmeg1_ex.txt
+valuesmeg1_ex.txt
+vec.txt
+latency.txt
+parammeg1_ex.txt

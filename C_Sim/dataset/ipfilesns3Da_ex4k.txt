@@ -1,0 +1,6 @@
+offsetsns3Da_ex4k.txt
+colIdxns3Da_ex4k.txt
+valuesns3Da_ex4k.txt
+vec.txt
+latency.txt
+paramns3Da_ex4k.txt

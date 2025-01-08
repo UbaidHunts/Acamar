@@ -1,0 +1,6 @@
+offsetsadd20_ex.txt
+colIdxadd20_ex.txt
+valuesadd20_ex.txt
+vec.txt
+latency.txt
+paramadd20_ex.txt

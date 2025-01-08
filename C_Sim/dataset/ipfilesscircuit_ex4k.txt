@@ -1,0 +1,6 @@
+offsetsscircuit_ex4k.txt
+colIdxscircuit_ex4k.txt
+valuesscircuit_ex4k.txt
+vec.txt
+latency.txt
+paramscircuit_ex4k.txt

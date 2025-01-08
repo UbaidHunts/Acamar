@@ -1,0 +1,6 @@
+offsetsthermomech_TC_ex4k.txt
+colIdxthermomech_TC_ex4k.txt
+valuesthermomech_TC_ex4k.txt
+vec.txt
+latency.txt
+paramthermomech_TC_ex4k.txt

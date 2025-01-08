@@ -1,0 +1,6 @@
+offsetsGaAsH6_ex4k.txt
+colIdxGaAsH6_ex4k.txt
+valuesGaAsH6_ex4k.txt
+vec.txt
+latency.txt
+paramGaAsH6_ex4k.txt

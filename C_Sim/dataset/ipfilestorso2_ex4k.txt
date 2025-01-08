@@ -1,0 +1,6 @@
+offsetstorso2_ex4k.txt
+colIdxtorso2_ex4k.txt
+valuestorso2_ex4k.txt
+vec.txt
+latency.txt
+paramtorso2_ex4k.txt

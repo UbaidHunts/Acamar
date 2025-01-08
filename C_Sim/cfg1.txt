@@ -1,0 +1,10 @@
+rowlength_latency 144
+vector_arith_latency 4102
+vector_copy_latency 4098
+vector_vector_dot_latency 12290
+norm_latency 12290
+scalar_vector_latency 4097
+init_ones_latency 128
+div_latency 10
+MAC_latency 6
+DFX_latency 0
